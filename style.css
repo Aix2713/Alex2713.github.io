@@ -1,0 +1,50 @@
+html {
+    overflow: auto;
+}
+
+.wx-img {
+    width           : 64px;
+    height          : 64px;
+    position        : fixed;
+    right           : 0px;
+    top             : 80px;
+    cursor          : pointer;
+    background-image: url(./assets/images/icon64_wx_logo.png);
+}
+
+.wx-img:hover .wx-img1 {
+    display: block;
+}
+
+.wx-img1 {
+    position: fixed;
+    width: 256px;
+    height: 256px;
+    right   : 64px;
+    top     : 140px;
+    display : none;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width : .6rem;
+    height: .6rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background   : rgba(22, 22, 22, .2);
+    border-radius: .6rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(22, 22, 22, .3);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(22, 22, 22, .1);
+}
