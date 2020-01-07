@@ -6,8 +6,8 @@ html {
     width           : 64px;
     height          : 64px;
     position        : fixed;
-    right           : 0px;
-    top             : 80px;
+    left            : 0px;
+    top             : 300px;
     cursor          : pointer;
     background-image: url(./assets/images/icon64_wx_logo.png);
 }
@@ -17,18 +17,26 @@ html {
 }
 
 .wx-img1 {
-    position: fixed;
-    width: 256px;
-    height: 256px;
-    right   : 64px;
-    top     : 140px;
-    display : none;
+    width : 128px;
+    height: 128px;
 }
 
+.has-text-right {
+    border-right: 1px solid #666;
+}
 
+.container {
+    max-width: 1023px;
+    margin   : 0 auto;
+}
 
+@media screen and (min-width: 769px) {
 
-
+    .contact {
+        text-align  : right !important;
+        border-right: 1px solid #666;
+    }
+}
 
 
 ::-webkit-scrollbar {
